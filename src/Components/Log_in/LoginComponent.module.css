@@ -1,0 +1,25 @@
+.main{
+    width: 350px;
+    height: auto;
+    background-color: rgba(38, 35, 35, 0.653);
+    padding: 50px 40px;
+    border-radius: 3px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form > input{
+    padding: 10px 0px;
+    outline: none;
+    padding: 10px;
+    font-family: var(--font-text);
+    color: rgb(53, 50, 50);
+    font-weight: bolder;
+    font-size: large;
+}
+

@@ -1,0 +1,51 @@
+.welcomeHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.welcome{
+    color: red;
+    font-family: var(--font-title);
+    letter-spacing: 3px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.form > input{
+    width: 250px;
+    padding: 6px 9px;
+    outline: none;
+    border: none;
+    font-family: var(--font-text);
+    color: rgb(53, 50, 50);
+    font-weight: bolder;
+    font-size: large;
+}
+
+.form > button{
+    background-color: rgb(53, 50, 50);
+    color: white;
+    width: 35px;
+    outline: none;
+    border: 2px solid white;
+    transition: all .2s ease-in-out;
+}
+
+.form > button:hover{
+    transform: scale(1.02);
+}
+
+.sectionCards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding: 40px;
+}
